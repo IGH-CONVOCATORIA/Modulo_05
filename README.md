@@ -1,14 +1,19 @@
-## Getting Started
+## Programacion en Capas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En este repositorio se encuentra algunos ejercicios de programacion en capas con java.
 
-## Folder Structure
+## Lecciones aprendidas
 
-The workspace contains two folders by default, where:
+La programacion en capas consiste en dividir el programa en diferentes capas para no exponer la logica del negocio al usuario final.
+En este caso dividimos en 3 capas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `services`: En la capa de services se encuentran las funciones y logica del programa.
+- `test`: En la capa de test se realizan las pruebas de los servicios del programa.
+- `view`: En la capa de view se encuentra la interfaz para los usuarios donde ellos podran interactuar con el programa.
 
-## Dependency Management
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Enfoque de servicios
+
+El enfoque de servicios consiste en dividir la logica de negocios en pequeños grupos llamados servicios de esta manera la logica del negocio se
+trabaja mejor eliminando reduncacia,mala practicas,etc.
+
